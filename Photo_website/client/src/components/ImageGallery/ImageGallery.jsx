@@ -4,7 +4,7 @@ import ImageListItem from "@mui/material/ImageListItem";
 
 function StandardImageList() {
   return (
-    <ImageList sx={{ width: 800, height: 170 }} cols={8} rowHeight={124}>
+    <ImageList sx={{ width: 900, height: 490 }} cols={5} rowHeight={240}>
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
           <img
@@ -21,11 +21,11 @@ function StandardImageList() {
 
 const itemData = [
   {
-    img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
+    img: "https://res.cloudinary.com/dk00a2nda/image/upload/v1645119910/Photo_site/IMG_1616_z2y00e.jpg",
     title: "Breakfast"
   },
   {
-    img: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d",
+    img: "https://res.cloudinary.com/dk00a2nda/image/upload/v1645120007/Photo_site/IMG_1077_m3glkp.jpg",
     title: "Burger"
   },
   {
