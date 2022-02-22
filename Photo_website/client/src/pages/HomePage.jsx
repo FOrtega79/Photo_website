@@ -1,6 +1,7 @@
 
 import "../App.css";
 import StandardImageList from "../components/ImageGallery/ImageGallery";
+import LandscapeSlide from "../components/LandscapeSlide/LandscapeSlide";
 
 
 function HomePage() {
@@ -14,7 +15,7 @@ function HomePage() {
       <p>About me</p>
        <h3>Landscapes</h3>
        <div>
-       <StandardImageList />
+       <LandscapeSlide />
        </div>
 
        <h3>B/N urban landscapes</h3>
