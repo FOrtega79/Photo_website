@@ -1,7 +1,7 @@
 
 import "../App.css";
-import StandardImageList from "../components/ImageGallery/ImageGallery";
 import LandscapeSlide from "../components/LandscapeSlide/LandscapeSlide";
+import BasicModal from "../components/Modal/Modal";
 
 
 function HomePage() {
@@ -11,7 +11,7 @@ function HomePage() {
       <header className="App-header">
       <p>Name: Claudia Matute</p>
       <p>Contact: tuemail@tudominio.com</p>
-      <p>About me</p>
+      <p><BasicModal /> </p>
        <h3>Landscapes</h3>
        <div>
        <LandscapeSlide />
@@ -19,12 +19,12 @@ function HomePage() {
 
        <h3>B/N urban landscapes</h3>
        <div>
-       <StandardImageList />
+       
        </div>
 
        <h3>B/N Portraits</h3>
        <div>
-       <StandardImageList />
+       
        </div>
         
       </header>
