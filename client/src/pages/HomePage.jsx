@@ -11,7 +11,6 @@ function HomePage() {
       <header className="App-header">
       <p>Name: Claudia Matute</p>
       <p>Contact: tuemail@tudominio.com</p>
-      <p>My equipment</p>
       <p>About me</p>
        <h3>Landscapes</h3>
        <div>

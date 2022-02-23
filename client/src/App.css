@@ -24,3 +24,10 @@
   color: #61dafb;
 }
 
+@media (max-width: 600px) {
+  .App-header{
+    margin-left: 10px;
+  }
+
+}
+  
