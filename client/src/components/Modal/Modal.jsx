@@ -6,10 +6,10 @@ import Modal from '@mui/material/Modal';
 
 const style = {
   position: 'absolute',
-  top: '20%',
-  left: '40%',
+  top: '30%',
+  left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: 500,
+  width: 400,
   bgcolor: 'background.paper',
   border: '1px solid #000',
   boxShadow: 24,
@@ -30,13 +30,17 @@ export default function BasicModal() {
         onClose={handleClose}
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
+        sx={{
+          backdropFilter: "blur(3px)",
+          //other styles here
+        }}
       >
-        <Box sx={style}>
+        <Box className='modalBox' sx={style}>
           
           <Typography id="modal-modal-description" sx={{ mt: 1 }}>
           Claudia Matute is a Madrid-based photographer focused on the fashion industry.
           </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 1 }}>
+          <Typography id="modal-modal-description" sx={{ mt: 1, fontSize:16 }}>
           Recent clients: <br></br>
           Ynesuelves, Vogue
           </Typography>
