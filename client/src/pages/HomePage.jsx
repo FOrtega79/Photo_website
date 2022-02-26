@@ -2,6 +2,7 @@
 import "../App.css";
 import LandscapeSlide from "../components/LandscapeSlide/LandscapeSlide";
 import BasicModal from "../components/Modal/Modal";
+import PortraitSlide from "../components/PortraitSlide/PortraitSlide"
 
 
 function HomePage() {
@@ -22,9 +23,9 @@ function HomePage() {
        
        </div>
 
-       <h3>B/N Portraits</h3>
+       <h3>Portraits</h3>
        <div>
-       
+       <PortraitSlide />
        </div>
         
       </header>
