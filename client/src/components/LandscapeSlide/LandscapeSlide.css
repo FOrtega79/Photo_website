@@ -6,7 +6,12 @@
     height: 45vw;    
 }
 
-.img_gallery{
+.img_gallery-vertical{
+    height: 100%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.img_gallery-horizontal{
     height: 100%;
     margin-right: 10px;
     cursor: pointer;
@@ -30,16 +35,21 @@
   @media (max-width: 600px) {
     
    .horizontalScroll{
-       height: 500px;
+       height: 485px;
        width: 100%;
        overflow-y:hidden ;
        overflow-x: scroll;
        /* width: fit-content; */
    }
 
-    .img_gallery{
+    .img_gallery-vertical{
         height: 100%;
-        /* width: 100%; */
+        width: 270px;
+    }
+
+    .img_gallery-horizontal{
+        height: 100%;
+        width: 880px;
     }
   
   }
