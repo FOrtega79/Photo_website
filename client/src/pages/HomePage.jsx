@@ -11,7 +11,7 @@ function HomePage() {
       <header className="App-header">
       <p>Name: Claudia Matute</p>
       <p>Contact: tuemail@tudominio.com</p>
-      <p><BasicModal /> </p>
+      <BasicModal />
        <h3>Landscapes</h3>
        <div>
        <LandscapeSlide />
